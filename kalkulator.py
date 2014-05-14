@@ -1,10 +1,13 @@
 def get_info():
     print("To jest prosty kalkulator")
 
-def dodawanie():
-    a=int(input('Wprowadz liczbe a: '))
-    b=int(input('Wprowadz liczbe b: '))
-    print(a+b)
+def dodawanie(a,b):
+    return a+b
 
 get_info()
-dodawanie() 
+
+l1=int(input('Wprowadz liczbe pierwsza: '))
+l2=int(input('Wprowadz liczbe druga: '))
+print(dodawanie(l1,l1)) 
+
+
